@@ -25,4 +25,4 @@ app.get('/', (req, res) => {
         })
 })
 
-app.listen(80, () => console.log('Hello world  app is listening'))
+app.listen(80, () => console.log('Hello world app is listening'))
