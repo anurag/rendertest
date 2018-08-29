@@ -25,4 +25,6 @@ app.get('/', (req, res) => {
         })
 })
 
-app.listen(8080, () => console.log('Hello world app is listening'))
+const port = process.env.PORT || 8080
+
+app.listen(port, () => console.log('Hello world app is listening'))
